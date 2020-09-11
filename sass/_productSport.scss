@@ -1,0 +1,33 @@
+#product-sport {
+  .container {
+    .row {
+      .col-md-6 {
+        .text {
+          color: $color-white;
+          h1 {
+            font-family: 'Signika', sans-serif;
+            color: $color-brown-light;
+            font-weight: 700;
+          }
+          .price {
+            font-weight: 700;
+            font-family: 'Signika', sans-serif;
+            font-size: 1.3rem;
+            color: $color-brown-light;
+          }
+        }
+      }
+      .col-md-6 {
+        .d-flex {
+          min-height: 500px;
+          background: $color-brown-light;
+          border-radius: 50%;
+          img {
+            width: 40%;
+            height: 40%;
+          }
+        }
+      }
+    }
+  }
+}

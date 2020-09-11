@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Logo header -->
+    <link rel="icon" href="./public/watch.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site for developers in the world" />
+    <!-- Bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!-- Aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- My Style -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Future Watches</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="d-flex justify-content-center logo">
+        <img src="./img/watch.svg" alt="logo" class="img-fluid" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2 text-center text">
+            <h1>Wrist Watches Future</h1>
+            <p class="mt-5 lead">
+              Futuristic wristwatches are beautiful, wonderful and stimulating,
+              making you a glamorous and elegant person.
+            </p>
+          </div>
+        </div>
+        <div class="row my-5 time">
+          <div class="col-8 offset-2">
+            <div class="d-flex justify-content-center">
+              <div class="d-flex flex-column mx-4 text-center">
+                <h1 id="day"></h1>
+              </div>
+              <div class="d-flex flex-column mx-4 text-center">
+                <h1 id="hour"></h1>
+              </div>
+              <div class="d-flex flex-column mx-4 text-center">
+                <h1 id="minute"></h1>
+              </div>
+              <div class="d-flex flex-column mx-4 text-center">
+                <h1 id="second"></h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8 offset-2">
+            <h6 class="text-center">Book ahead of time and get benefits</h6>
+          </div>
+        </div>
+      </div>
+      <video
+        src="./videos/coverr-watch-timelapse-1585557093623.mp4"
+        muted
+        loop
+        autoplay
+      ></video>
+      <div class="multiply"></div>
+      <div class="controler">
+        <ul id="main-circles">
+          <a href="#header"><li>1</li></a>
+          <a href="#product-sport"><li>2</li></a>
+          <a href="#product-classic"><li>3</li></a>
+          <a href="#contact"><li>4</li></a>
+        </ul>
+      </div>
+    </header>
+    <section id="product-sport">
+      <div class="container">
+        <div class="row mt-8 mb-8">
+          <div class="col-md-6">
+            <div class="text">
+              <h1 class="mb-8">Wrist Watches Sport</h1>
+              <p>
+                Beautiful and beautiful sports watches against water and rapid
+                breakage withstand all natural conditions and also flowability,
+                fast charging and its battery lasts more than 22 hours in normal
+                mode or excessive use 16 hours You can buy it now and at a
+                competitive price, starting from the price below.
+              </p>
+              <p class="price mt-8 text-center"><strong>Buy :</strong> 135$</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex justify-content-center">
+              <img
+                src="./img/watches_PNG9906.png"
+                alt="watches"
+                class="img-fluid align-self-center"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="product-classic">
+      <div class="container">
+        <div class="row pt-8 pb-8">
+          <div class="col-md-6">
+            <div class="d-flex justify-content-center">
+              <img
+                src="./img/watches_PNG9858.png"
+                alt="watches"
+                class="img-fluid align-self-center"
+                data-aos="fade-down"
+                data-aos-easing="ease-in-out"
+                data-aos-duration="500"
+              />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="text">
+              <h1 class="mb-8">Wrist Watches Classic</h1>
+              <p>
+                You want to look like celebrities and shine as if you are
+                wearing a fortune in your hand. Get one of our beautiful and
+                luxurious watches that are distinguished by much beauty and
+                magnificence Buy and get one or collect your own collection and
+                engrave what you want in the back at competitive prices.
+              </p>
+              <p class="price my-8 text-center"><strong>Buy :</strong> 399$</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h1 class="text-center my-5">Contact Us</h1>
+        <div class="row py-6">
+          <div class="col-md-6">
+            <h6 class="mb-4 text-center">
+              Enter your information and send your message
+            </h6>
+            <form class="px-3">
+              <div class="form-group mb-5">
+                <input
+                  class="form-control"
+                  type="email"
+                  id="email"
+                  placeholder="email"
+                />
+              </div>
+              <div class="form-group mb-5">
+                <input class="form-control" type="name" placeholder="Name" />
+              </div>
+              <div class="form-group mb-5">
+                <textarea class="from-control" placeholder="Message"></textarea>
+              </div>
+              <div class="d-flex justify-content-center">
+                <button class="btn btn-card btn-lg mt-3">Contact</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <div class="contact-text">
+              <p><i class="fas fa-envelope-open-text mr-3"></i>test@test.com</p>
+              <p><i class="fas fa-phone-square mr-3"></i>+21300000000</p>
+              <p><i class="fas fa-search-location mr-3"></i>City-Msila</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer" class="py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">Copyright &copy; <span id="year"></span></div>
+          <div class="col-4 offset-4">Zighed Mohammed Elamine</div>
+        </div>
+      </div>
+    </footer>
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b4ad2faa56.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

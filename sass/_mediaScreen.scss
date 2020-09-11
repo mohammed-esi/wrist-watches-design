@@ -1,0 +1,466 @@
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1024px to 1366px
+*/
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  /* Header */
+  header {
+    .logo {
+      img {
+        width: 7%;
+        height: 7%;
+      }
+    }
+    .container {
+      .text {
+        h1 {
+          color: $color-brown-light;
+          font-family: 'PT Serif', serif;
+        }
+      }
+      .time {
+        h1 {
+          color: $color-white;
+          font-family: 'PT Serif', serif;
+        }
+        h6 {
+          color: $color-brown;
+          padding-bottom: 10px;
+          border-bottom: 2px solid $color-brown;
+        }
+      }
+    }
+    .controler {
+      display: none;
+    }
+  }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 991px to 1024px
+*/
+
+@media (min-width: 991px) and (max-width: 1024px) {
+  /* Header */
+  header {
+    .logo {
+      img {
+        width: 7%;
+        height: 7%;
+      }
+    }
+    .controler {
+      display: none;
+    }
+  }
+
+  /* Product Sport */
+  #product-sport {
+    .container {
+      .row {
+        .col-md-6 {
+          .text {
+            h1 {
+              font-size: 2rem;
+            }
+            .price {
+              font-size: 1rem;
+            }
+          }
+        }
+        .col-md-6 {
+          .d-flex {
+            min-height: 300px;
+            margin-top: 25%;
+            img {
+              width: 30%;
+              height: 30%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Product Classic */
+  #product-classic {
+    .container {
+      .row {
+        .col-md-6 {
+          .text {
+            h1 {
+              font-size: 2rem;
+            }
+            .price {
+              font-size: 1rem;
+            }
+          }
+        }
+        .col-md-6 {
+          .d-flex {
+            min-height: 300px;
+            margin-top: 25%;
+            img {
+              width: 30%;
+              height: 30%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Contact */
+  #contact {
+    .row {
+      .contact-text {
+        margin-top: 35%;
+      }
+    }
+  }
+}
+
+/* Tables Apple */
+
+@media (min-width: 768px) and (max-width: 768px) {
+  /* Header */
+  header {
+    .logo {
+      img {
+        width: 7%;
+        height: 7%;
+      }
+    }
+    .controler {
+      display: none;
+    }
+  }
+
+  /* Product Sport */
+  #product-sport {
+    .container {
+      .row {
+        .col-md-6 {
+          .text {
+            h1 {
+              font-size: 2rem;
+            }
+            .price {
+              font-size: 1rem;
+            }
+          }
+        }
+        .col-md-6 {
+          .d-flex {
+            min-height: 300px;
+            margin-top: 25%;
+            img {
+              width: 30%;
+              height: 30%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Product Classic */
+  #product-classic {
+    .container {
+      .row {
+        .col-md-6 {
+          .text {
+            h1 {
+              font-size: 2rem;
+            }
+            .price {
+              font-size: 1rem;
+            }
+          }
+        }
+        .col-md-6 {
+          .d-flex {
+            min-height: 300px;
+            margin-top: 25%;
+            img {
+              width: 30%;
+              height: 30%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Contact */
+  #contact {
+    .row {
+      .contact-text {
+        margin-top: 37%;
+      }
+    }
+  }
+}
+
+/* Tables Apple */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Header */
+  header {
+    .logo {
+      img {
+        width: 7%;
+        height: 7%;
+      }
+    }
+    .controler {
+      display: none;
+    }
+  }
+
+  /* Product Sport */
+  #product-sport {
+    .container {
+      .row {
+        .col-md-6 {
+          .text {
+            h1 {
+              font-size: 2rem;
+            }
+            .price {
+              font-size: 1rem;
+            }
+          }
+        }
+        .col-md-6 {
+          .d-flex {
+            min-height: 300px;
+            margin-top: 25%;
+            img {
+              width: 30%;
+              height: 30%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Product Classic */
+  #product-classic {
+    .container {
+      .row {
+        .col-md-6 {
+          .text {
+            h1 {
+              font-size: 2rem;
+            }
+            .price {
+              font-size: 1rem;
+            }
+          }
+        }
+        .col-md-6 {
+          .d-flex {
+            min-height: 300px;
+            margin-top: 25%;
+            img {
+              width: 30%;
+              height: 30%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Contact */
+  #contact {
+    .row {
+      .contact-text {
+        margin-top: 37%;
+      }
+    }
+  }
+}
+
+/* Phones */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* Header */
+  header {
+    .logo {
+      img {
+        width: 10%;
+        height: 10%;
+      }
+    }
+    .container {
+      margin-top: 20%;
+    }
+    .controler {
+      display: none;
+    }
+  }
+
+  /* Product Sport */
+  #product-sport {
+    .container {
+      .row {
+        .col-md-6 {
+          .text {
+            h1 {
+              font-size: 2.3rem;
+            }
+            .price {
+              font-size: 1.2rem;
+            }
+          }
+        }
+        .col-md-6 {
+          .d-flex {
+            min-height: 350px;
+            margin-top: 10%;
+            img {
+              width: 35%;
+              height: 35%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Product Classic */
+  #product-classic {
+    .container {
+      .row {
+        .col-md-6 {
+          .text {
+            h1 {
+              font-size: 2.3rem;
+            }
+            .price {
+              font-size: 1.2rem;
+            }
+          }
+        }
+        .col-md-6 {
+          .d-flex {
+            min-height: 350px;
+            margin-bottom: 10%;
+            img {
+              width: 35%;
+              height: 35%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Contact */
+  #contact {
+    .row {
+      .contact-text {
+        text-align: center;
+      }
+    }
+  }
+}
+
+/* Phones */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* Header */
+  header {
+    .logo {
+      img {
+        width: 15%;
+        height: 15%;
+      }
+    }
+    .container {
+      margin-top: 20%;
+      .time {
+        h1 {
+          font-size: 1.3rem;
+        }
+        h6 {
+          font-size: 0.5rem;
+        }
+      }
+    }
+    .controler {
+      display: none;
+    }
+  }
+
+  /* Product Sport */
+  #product-sport {
+    .container {
+      .row {
+        .col-md-6 {
+          .text {
+            h1 {
+              font-size: 1.9rem;
+            }
+            .price {
+              font-size: 1rem;
+            }
+          }
+        }
+        .col-md-6 {
+          .d-flex {
+            min-height: 300px;
+            margin-top: 10%;
+            img {
+              width: 30%;
+              height: 30%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Product Classic */
+  #product-classic {
+    .container {
+      .row {
+        .col-md-6 {
+          .text {
+            h1 {
+              font-size: 1.8rem;
+            }
+            .price {
+              font-size: 1rem;
+            }
+          }
+        }
+        .col-md-6 {
+          .d-flex {
+            min-height: 300px;
+            margin-bottom: 10%;
+            img {
+              width: 30%;
+              height: 30%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Contact */
+  #contact {
+    .row {
+      .contact-text {
+        text-align: center;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
